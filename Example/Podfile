@@ -4,8 +4,8 @@ platform :ios, '10.0'
 
 target 'OldedDemoViewModel_Example' do
   pod 'OldedDemoViewModel', :path => '../'
-  pod 'NHNewDemoProtocolManager'
-  pod 'NHNewDemoViewModelProtocol'
+  pod 'NewDemoProtocolManager'
+  pod 'NewDemoViewModelProtocol'
 
   target 'OldedDemoViewModel_Tests' do
     inherit! :search_paths
