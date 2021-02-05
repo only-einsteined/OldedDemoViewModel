@@ -1,0 +1,54 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - NewDemoProtocolManager (0.4.8)
+  - NewDemoViewModelProtocol (0.4.7)
+  - OldedDemoViewModel (1.2.8.5):
+    - NewDemoProtocolManager
+    - NewDemoViewModelProtocol
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - NewDemoProtocolManager (from `/Users/lichenbiao/Desktop/iosdevelopment/NewDemoProtocolManager`)
+  - NewDemoViewModelProtocol (from `/Users/lichenbiao/Desktop/iosdevelopment/NewDemoViewModelProtocol`)
+  - OldedDemoViewModel (from `../`)
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Specta
+
+EXTERNAL SOURCES:
+  NewDemoProtocolManager:
+    :path: "/Users/lichenbiao/Desktop/iosdevelopment/NewDemoProtocolManager"
+  NewDemoViewModelProtocol:
+    :path: "/Users/lichenbiao/Desktop/iosdevelopment/NewDemoViewModelProtocol"
+  OldedDemoViewModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  NewDemoProtocolManager: 8335135dde3c7b51bb290b7a524e7bce74024d61
+  NewDemoViewModelProtocol: 26da279fb664e513bed9a95320e22b1d6097c6d4
+  OldedDemoViewModel: 0338a58149dc596ef17b26e8c7e269dda86cb31a
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 14532886dd4919b99d326ac35d5e87de045dc35d
+
+COCOAPODS: 1.10.1
